@@ -1,7 +1,7 @@
 """
 PingerWX -- a WX-based http graphical ping tool
 
-Will Groves 2010
+Will Groves 2013
 """
 import os
 import pprint
