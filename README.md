@@ -22,15 +22,17 @@ python Pinger.py --update-ms 100 --check-freq 50 --hq 10.8.0.1 --hq www.yahoo.co
 
 ## Command Line Options: ##
 
->  -h, --help            show this help message and exit
->  --update-ms=TIMERMS   display update interval in ms (default 450)
->  --check-freq=CHECKFREQUENCY
->                        frequency that hosts are queried in terms of number of
->                        display updates (default 7)
->  --max-green=GREENSECS
->                        number of seconds until green color dissipates
->                        (default 4)
->  --max-red=REDSECS     number of seconds until red color reaches full
->                        strength (default 20)
->  --hq=HTTPHOSTS, --httpquery=HTTPHOSTS
->                        specify host and port to query via http (ip:port)
+```
+  -h, --help            show this help message and exit
+  --update-ms=TIMERMS   display update interval in ms (default 450)
+  --check-freq=CHECKFREQUENCY
+                        frequency that hosts are queried in terms of number of
+                        display updates (default 7)
+  --max-green=GREENSECS
+                        number of seconds until green color dissipates
+                        (default 4)
+  --max-red=REDSECS     number of seconds until red color reaches full
+                        strength (default 20)
+  --hq=HTTPHOSTS, --httpquery=HTTPHOSTS
+                        specify host and port to query via http (ip:port)
+```
